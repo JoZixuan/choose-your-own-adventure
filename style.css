@@ -1,0 +1,24 @@
+
+
+h1{
+    border: 2px solid rgb(0, 255, 0);
+    font-size: 20px
+}
+p{
+    color:red; 
+    font-family: sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+    font-size: 40px;
+    
+}
+.alternate1{
+    color: blue;
+    transition: 1s;
+    
+}
+.alternate1:hover{
+    color:orange;
+    font-size: 60px;
+    filter: hue-rotate(360deg)
+}
